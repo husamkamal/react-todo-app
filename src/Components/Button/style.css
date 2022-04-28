@@ -1,0 +1,10 @@
+.button{
+    min-width: 20%;
+    border: none;
+    border-radius: 15px;
+    min-height: 2rem;
+    padding: 0 3rem;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}

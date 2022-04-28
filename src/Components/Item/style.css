@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list{
+    width: 62%;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 40vh;
+    overflow: auto;
+}
+.listItem{
+    margin-bottom: .2rem;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px ;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+.listItem div{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
